@@ -34,7 +34,7 @@ int	ft_strlen(char *str)
 }
 int	main(void)
 {
-	int len = ft_strlen("Omar Ammar");
+	int len = ft_strlen("User1 User2");
 	
 	ft_putnbr(len);
 	return (0);

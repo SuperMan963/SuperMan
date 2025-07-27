@@ -12,6 +12,6 @@ void	ft_putstr(char *str)
 }
 int	main(void)
 {
-	ft_putstr("Omar Ammar");
+	ft_putstr("User1 User2");
 	return (0);
 }

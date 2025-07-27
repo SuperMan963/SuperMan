@@ -35,7 +35,7 @@ char	*ft_strdup(char *str)
 }
 int	main(void)
 {
-	char	*original = "Omar Ammar";
+	char	*original = "User1 User2";
 	char	*copy = ft_strdup(original);
 	
 	if (copy == NULL)

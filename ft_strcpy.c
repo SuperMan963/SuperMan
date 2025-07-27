@@ -12,27 +12,27 @@ void	ft_putstr(char *str)
 	}
 }
 
-char	*ft_strcpy(char *omar, char *str)
+char	*ft_strcpy(char *src, char *str)
 {
 	int	i;
 
 	i = 0;
 	while (str[i] != '\0')
 	{
-		omar[i] = str[i];
+		src[i] = str[i];
 		i++;
 	}
-	omar[i] = '\0';
-	return (omar);
+	src[i] = '\0';
+	return (src);
 }
 int	main(void)
 {
-	char	str[] = "Omar Ammar";
-	char	omar[100];
+	char	str[] = "User1 User2";
+	char	src[100];
 
 	ft_strcpy(omar, str);
 	
-	write(1, "omar = ", 7);
+	write(1, "src = ", 7);
 	ft_putstr(omar);
 	write(1, "\n", 1);
 
