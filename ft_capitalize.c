@@ -31,7 +31,7 @@ char	*ft_cabt(char *str)
 }
 int	main()
 {
-	char	str[] = "oMar aMmar ayYash";
+	char	str[] = "uSer User USer0";
 
 	printf("The Full Name = %s\n", ft_cabt(str));
 }
