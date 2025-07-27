@@ -57,10 +57,11 @@ char	*ft_strjoin(char *s1, char *s2)
 }
 int	main(void)
 {
-	char	s1[] = "Omar ";
-	char	s2[] = "Ammar";
+	char	s1[] = "One ";
+	char	s2[] = "Tow";
 	char	*joined = ft_strjoin(s1, s2);
 
+	write(1, "The Joined : ", 13);
 	ft_putstr(joined);
 	write(1, "\n", 1);
 	free(joined);
