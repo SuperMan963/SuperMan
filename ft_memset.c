@@ -17,7 +17,7 @@ void	*ft_memset(void *b, int c, size_t len)
 }
 int	main(void)
 {
-	char	str[10] = "User";
+	char	str[10] = "UsEr";
 
 	ft_memset(str, 'A', 4);
 	write(1, str, 10);
