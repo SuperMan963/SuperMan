@@ -16,7 +16,8 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 	}
 	if (destination > source)
 	{
-		while (n--)
+		i = n;
+		while (i-- > 0)
 		{
 			destination[i] = source[i];
 		}
